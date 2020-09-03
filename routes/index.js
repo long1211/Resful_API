@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var Todo = require('../models/todo.modal')
+var Todo = require('../models/todo.model')
 
 // Create TodoList
 router.post('/', function(req,res,next){
